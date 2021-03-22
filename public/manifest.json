@@ -1,6 +1,6 @@
 {
-  "name": "Next, Leaflet & Graphql",
-  "short_name": "Next, Leaflet & Graphql",
+  "name": "World",
+  "short_name": "A simple project to show places in the world.",
   "icons": [
     {
       "src": "/img/icon-192.png",
