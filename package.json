@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "@styled-icons/evaicons-outline": "^10.18.0",
     "leaflet": "^1.7.1",
     "next": "10.0.2",
     "next-pwa": "^3.1.5",
