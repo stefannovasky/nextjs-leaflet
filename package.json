@@ -11,7 +11,8 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "generate": "yarn plop --plopfile ./generators/propfile.js"
+    "generate": "yarn plop --plopfile ./generators/propfile.js",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "husky": {
     "hooks": {
@@ -38,6 +39,10 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.12.1",
+    "@graphql-codegen/add": "^2.0.2",
+    "@graphql-codegen/cli": "1.21.3",
+    "@graphql-codegen/typescript": "1.21.1",
+    "@graphql-codegen/typescript-operations": "1.17.15",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.2.1",
     "@types/jest": "26.0.15",
